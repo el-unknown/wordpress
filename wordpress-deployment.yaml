@@ -53,8 +53,8 @@ spec:
           value: 172.27.0.3
         - name: WORDPRESS_DB_PASSWORD
           value: mypass
-                  #secretKeyRef:
-                    #name: mysql-pass
+                  ##secretKeyRef:
+                  ##  #name: mysql-pass
               ##key: password
         ports:
         - containerPort: 80
